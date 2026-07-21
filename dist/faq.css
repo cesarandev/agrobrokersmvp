@@ -1,0 +1,51 @@
+/* ========================================================================
+   AgroBrokers — Página FAQ (AG_010 Parte 1). Reusa tokens + .acc de styles.css
+   ======================================================================== */
+
+/* ===================== S-01 · Hero ===================== */
+.fq-hero{ background:var(--beige); padding-top:calc(var(--header-h) + 28px); padding-bottom:48px; }
+.fq-hero__wrap{ display:flex; flex-direction:column; }
+.fq-hero__center{ text-align:center; max-width:560px; margin:0 auto; display:flex; flex-direction:column; align-items:center; }
+.fq-hero__eyebrow{ font-family:var(--font-body); font-weight:400; font-size:12px; letter-spacing:.24em;
+  text-transform:uppercase; color:var(--green); margin-bottom:16px; }
+.fq-hero h1{ font-family:var(--font-head); font-weight:700; font-size:clamp(28px,4.2vw,44px); line-height:1.12;
+  letter-spacing:-.01em; color:var(--ink); }
+.fq-hero p{ font-size:clamp(15px,1.5vw,16px); color:var(--muted); line-height:1.6; margin-top:14px; max-width:520px; }
+.fq-search{ position:relative; width:100%; max-width:480px; margin-top:28px; }
+.fq-search svg{ position:absolute; left:18px; top:50%; transform:translateY(-50%); width:20px; height:20px; color:var(--green); }
+.fq-search input{ width:100%; background:#fff; border:1px solid #D1D5DB; border-radius:var(--radius);
+  padding:14px 20px 14px 50px; font-family:inherit; font-size:15px; color:var(--ink); transition:border-color .2s, box-shadow .2s; }
+.fq-search input::placeholder{ color:#9CA3AF; }
+.fq-search input:focus{ outline:none; border-color:var(--green); box-shadow:0 0 0 3px rgba(45,106,47,.12); }
+
+/* ===================== S-02 · Tabs + Acordeón ===================== */
+.fq-main{ background:#fff; padding-block:80px; }
+.fq-inner{ max-width:840px; margin:0 auto; }
+.fq-tabs{ display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-bottom:40px; }
+.fq-tab{ font-family:var(--font-body); font-size:14px; padding:10px 22px; border-radius:var(--radius);
+  background:#fff; color:#374151; border:1px solid var(--line); transition:all .15s ease; white-space:nowrap; }
+.fq-tab:hover{ border-color:var(--green); color:var(--green); }
+.fq-tab.active{ background:var(--green); color:#fff; border-color:var(--green); font-weight:600; }
+.fq-acc{ box-shadow:0 4px 20px rgba(0,0,0,.05); }
+.fq-result-note{ text-align:center; color:var(--muted); font-size:14px; margin-bottom:22px; }
+.fq-result-note b{ color:var(--ink); }
+
+/* ===================== S-03 · ¿No encontró su respuesta? ===================== */
+.fq-cta{ background:var(--beige); padding-block:64px; }
+.fq-cta__inner{ text-align:center; max-width:560px; margin:0 auto; display:flex; flex-direction:column; align-items:center; }
+.fq-cta__icon{ width:60px; height:60px; border-radius:15px; background:var(--green-light); color:var(--green);
+  display:flex; align-items:center; justify-content:center; margin-bottom:20px; }
+.fq-cta__icon svg{ width:32px; height:32px; }
+.fq-cta h2{ font-family:var(--font-head); font-weight:700; font-size:clamp(24px,2.8vw,28px); color:var(--ink); }
+.fq-cta p{ color:var(--muted); font-size:16px; line-height:1.6; margin-top:12px; max-width:480px; }
+.fq-cta__btns{ display:flex; gap:16px; flex-wrap:wrap; justify-content:center; margin-top:28px; }
+.btn-wa-outline{ border:2px solid var(--wa); color:var(--wa); background:transparent; }
+.btn-wa-outline:hover{ background:var(--wa); color:#fff; }
+
+@media (max-width:760px){
+  .fq-main{ padding-block:56px; }
+  .fq-tabs{ flex-wrap:nowrap; overflow-x:auto; justify-content:flex-start; padding-bottom:8px;
+    margin-inline:calc(-1 * var(--gutter)); padding-inline:var(--gutter); -webkit-overflow-scrolling:touch; }
+  .fq-tab{ flex-shrink:0; }
+  .fq-cta__btns .btn{ flex:1; }
+}

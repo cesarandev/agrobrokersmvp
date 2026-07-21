@@ -1,0 +1,151 @@
+ INFO  Accepting connections at http://localhost:4173
+ HTTP  21/7/2026 1:19:41 a. m. 127.0.0.1 GET /
+ HTTP  21/7/2026 1:19:41 a. m. 127.0.0.1 Returned 200 in 103 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 7 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /vendor/react.production.min.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /styles.css
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /vendor/react-dom.production.min.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /icons.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /util.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /header_hero.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 25 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 304 in 21 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 13 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /families.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 404 in 21 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 13 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 11 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 10 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /lower.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /home_sections.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /modal.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /video_sections.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 GET /app.js
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 16 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 14 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 12 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 10 ms
+ HTTP  21/7/2026 1:19:59 a. m. 127.0.0.1 Returned 200 in 10 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 304 in 3 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /styles.css
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 304 in 6 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /vendor/react.production.min.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /vendor/react-dom.production.min.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /icons.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /util.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /header_hero.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /families.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 304 in 14 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 13 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 12 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 11 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 11 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /lower.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 21 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /home_sections.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 10 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /modal.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /video_sections.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /app.js
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 13 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 9 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 10 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 200 in 10 ms
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 GET /assets/logo-white.png
+ HTTP  21/7/2026 1:21:18 a. m. 127.0.0.1 Returned 304 in 5 ms
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 GET /assets/prod-nutrilimit.png
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 GET /assets/prod-tailoredto.png
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 GET /assets/prod-chronos.png
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 GET /assets/prod-growflex.png
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 GET /assets/prod-acticoox.png
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 Returned 304 in 8 ms
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 Returned 304 in 11 ms
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 Returned 304 in 14 ms
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 Returned 304 in 13 ms
+ HTTP  21/7/2026 1:21:19 a. m. 127.0.0.1 Returned 304 in 14 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 3 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /styles.css
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 5 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /vendor/react.production.min.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /vendor/react-dom.production.min.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /icons.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /util.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /header_hero.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 7 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 7 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 7 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 7 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /families.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 8 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /lower.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /home_sections.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 6 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 4 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /modal.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 7 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /video_sections.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /app.js
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 5 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 4 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 7 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /assets/logo-white.png
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 1 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /assets/prod-nutrilimit.png
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /assets/prod-tailoredto.png
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 3 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 3 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /assets/prod-chronos.png
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /assets/prod-growflex.png
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 GET /assets/prod-acticoox.png
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 4 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 5 ms
+ HTTP  21/7/2026 1:21:32 a. m. 127.0.0.1 Returned 304 in 4 ms
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 GET /
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 Returned 200 in 2 ms
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 GET /blog
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 Returned 200 in 5 ms
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 GET /productos
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 Returned 200 in 4 ms
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 GET /producto?p=perisson
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 Returned 200 in 3 ms
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 GET /contacto
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 Returned 200 in 4 ms
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 GET /assets/logo.png
+ HTTP  21/7/2026 1:21:43 a. m. 127.0.0.1 Returned 200 in 3 ms
+ HTTP  21/7/2026 1:21:44 a. m. 127.0.0.1 GET /vendor/react-dom.production.min.js
+ HTTP  21/7/2026 1:21:44 a. m. 127.0.0.1 Returned 200 in 3 ms
+ HTTP  21/7/2026 1:21:55 a. m. 127.0.0.1 GET /producto?p=perisson
+ HTTP  21/7/2026 1:21:55 a. m. 127.0.0.1 Returned 200 in 3 ms
+ HTTP  21/7/2026 1:21:55 a. m. 127.0.0.1 GET /products.css?v=4
+ HTTP  21/7/2026 1:21:55 a. m. 127.0.0.1 GET /catalog.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /ficha_modal.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /producto.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /styles.css
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /producto_app.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 4 ms
+ HTTP  21/7/2026 1:21:55 a. m. 127.0.0.1 Returned 200 in 129 ms
+ HTTP  21/7/2026 1:21:55 a. m. 127.0.0.1 Returned 200 in 145 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 200 in 82 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /vendor/react.production.min.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 200 in 51 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 200 in 26 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 18 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /vendor/react-dom.production.min.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /icons.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 4 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 3 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /util.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /header_hero.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 3 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /lower.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /modal.js
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 7 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 4 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 6 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /assets/logo-white.png
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 2 ms
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 GET /assets/prod-growflex.png
+ HTTP  21/7/2026 1:21:56 a. m. 127.0.0.1 Returned 304 in 2 ms

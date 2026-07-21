@@ -1,0 +1,158 @@
+/* ========================================================================
+   AgroBrokers — Página BLOG (AG_009). Reusa tokens de styles.css
+   ======================================================================== */
+
+/* category accent map is applied inline via --cat */
+
+/* ===================== S-01 · Hero ===================== */
+.bl-hero{ background:var(--beige); padding-top:calc(var(--header-h) + 28px); padding-bottom:48px; }
+.bl-hero__wrap{ display:flex; flex-direction:column; }
+.bl-hero__center{ text-align:center; max-width:600px; margin:0 auto; display:flex; flex-direction:column; align-items:center; }
+.bl-hero__eyebrow{ font-family:var(--font-body); font-weight:400; font-size:12px; letter-spacing:.24em;
+  text-transform:uppercase; color:var(--green); margin-bottom:16px; }
+.bl-hero h1{ font-family:var(--font-head); font-weight:700; font-size:clamp(30px,4.4vw,48px); line-height:1.12;
+  letter-spacing:-.01em; color:var(--ink); }
+.bl-hero p{ font-size:clamp(15px,1.5vw,17px); color:var(--muted); line-height:1.6; margin-top:16px; max-width:560px; }
+.bl-search{ position:relative; width:100%; max-width:560px; margin-top:30px; }
+.bl-search svg{ position:absolute; left:18px; top:50%; transform:translateY(-50%); width:20px; height:20px; color:var(--green); }
+.bl-search input{ width:100%; background:#fff; border:1px solid #D1D5DB; border-radius:var(--radius);
+  padding:15px 20px 15px 50px; font-family:inherit; font-size:15px; color:var(--ink); transition:border-color .2s, box-shadow .2s; }
+.bl-search input::placeholder{ color:#9CA3AF; }
+.bl-search input:focus{ outline:none; border-color:var(--green); box-shadow:0 0 0 3px rgba(45,106,47,.12); }
+
+/* ===================== shared bits ===================== */
+.bl-badge{ display:inline-block; font-family:var(--font-body); font-weight:600; font-size:11px; letter-spacing:.04em;
+  text-transform:uppercase; color:#fff; padding:5px 13px; border-radius:20px; background:var(--cat, var(--green)); }
+.bl-ph{ position:relative; overflow:hidden; background:var(--cat-bg, linear-gradient(135deg,#2f6a31,#173d18)); }
+.bl-ph::after{ content:""; position:absolute; inset:0; background-image:repeating-linear-gradient(115deg, rgba(255,255,255,.14) 0 1px, transparent 1px 13px); }
+.bl-ph__cap{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+  font-family:'Courier New',monospace; font-size:12px; color:rgba(255,255,255,.55); text-align:center; padding:16px; z-index:1; }
+.bl-meta{ font-size:12.5px; color:#9CA3AF; }
+
+/* ===================== S-02 · Featured ===================== */
+.bl-feat{ background:#fff; padding-block:64px; }
+.bl-feat__card{ display:grid; grid-template-columns:55fr 45fr; background:#fff; border-radius:12px;
+  box-shadow:0 4px 24px rgba(0,0,0,.08); overflow:hidden; }
+.bl-feat__media{ position:relative; min-height:340px; }
+.bl-feat__media .bl-badge{ position:absolute; top:16px; left:16px; z-index:2; }
+.bl-feat__body{ padding:48px; display:flex; flex-direction:column; justify-content:center; }
+.bl-feat__body h2{ font-family:var(--font-head); font-weight:700; font-size:clamp(24px,2.6vw,30px); line-height:1.3;
+  color:var(--ink); margin:18px 0 14px; }
+.bl-feat__excerpt{ color:#4B5563; font-size:15px; line-height:1.7; margin-bottom:24px; }
+.bl-feat__foot{ display:flex; align-items:center; gap:0; border-top:1px solid var(--line); padding-top:20px; }
+.bl-feat__meta{ font-size:13px; color:#9CA3AF; flex:1; }
+.bl-cta{ color:var(--green); font-family:var(--font-body); font-weight:600; font-size:14px; display:inline-flex;
+  align-items:center; gap:7px; transition:gap .2s, color .2s; }
+.bl-cta:hover{ color:var(--green-dark); gap:11px; text-decoration:underline; }
+.bl-cta svg{ width:15px; height:15px; }
+
+/* ===================== S-03 · Tabs + Grid ===================== */
+.bl-grid-sec{ background:#FAF8F4; padding-block:80px; }
+.bl-tabs{ display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-bottom:48px; }
+.bl-tab{ font-family:var(--font-body); font-size:14px; padding:10px 22px; border-radius:var(--radius);
+  background:#fff; color:#374151; border:1px solid var(--line); transition:all .15s ease; white-space:nowrap; }
+.bl-tab:hover{ border-color:var(--green); color:var(--green); }
+.bl-tab.active{ background:var(--green); color:#fff; border-color:var(--green); font-weight:600; }
+.bl-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+.bl-card{ background:#fff; border:1px solid var(--line); border-radius:8px; overflow:hidden; display:flex;
+  flex-direction:column; box-shadow:0 2px 8px rgba(0,0,0,.06); cursor:pointer;
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.bl-card:hover{ transform:translateY(-4px); box-shadow:0 12px 28px rgba(45,106,47,.12); border-color:var(--green); }
+.bl-card__media{ position:relative; aspect-ratio:16/9; }
+.bl-card__media .bl-badge{ position:absolute; top:8px; left:8px; z-index:2; }
+.bl-card__body{ padding:20px; display:flex; flex-direction:column; flex:1; }
+.bl-card__meta{ font-size:12px; color:#9CA3AF; margin-bottom:8px; }
+.bl-card h3{ font-family:var(--font-head); font-weight:700; font-size:18px; line-height:1.4; color:var(--ink);
+  margin-bottom:8px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.bl-card__excerpt{ font-size:14px; color:var(--muted); line-height:1.6; margin-bottom:16px;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.bl-card .bl-cta{ margin-top:auto; font-size:13px; }
+.bl-empty{ text-align:center; color:var(--muted); padding:40px 0; grid-column:1/-1; }
+.bl-more{ text-align:center; margin-top:48px; display:flex; flex-direction:column; align-items:center; gap:12px; }
+.bl-more__count{ font-size:13px; color:#9CA3AF; }
+
+/* ===================== S-04 · Casos de éxito ===================== */
+.bl-casos{ background:var(--green); padding-block:80px; color:#fff; }
+.bl-casos__head{ text-align:center; max-width:560px; margin:0 auto 48px; display:flex; flex-direction:column; align-items:center; }
+.bl-casos__head .eyebrow{ color:#fff; }
+.bl-casos__head .eyebrow::before{ background:rgba(255,255,255,.6); }
+.bl-casos__head h2{ font-family:var(--font-head); font-weight:700; font-size:clamp(28px,3.2vw,36px); color:#fff; margin:14px 0; }
+.bl-casos__head p{ color:rgba(255,255,255,.85); font-size:16px; line-height:1.6; }
+.bl-casos__grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:24px; }
+.bl-caso{ background:#fff; border-radius:12px; overflow:hidden; display:flex; flex-direction:column; }
+.bl-caso__media{ aspect-ratio:16/9; position:relative; }
+.bl-caso__body{ padding:24px; display:flex; flex-direction:column; }
+.bl-caso__badges{ display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px; }
+.bl-prodbadge{ display:inline-block; font-family:var(--font-body); font-weight:600; font-size:11px; letter-spacing:.04em;
+  text-transform:uppercase; color:var(--green); background:var(--green-light); padding:5px 13px; border-radius:20px; }
+.bl-caso h3{ font-family:var(--font-head); font-weight:700; font-size:20px; line-height:1.4; color:var(--ink); margin-bottom:10px; }
+.bl-caso__desc{ font-size:14px; color:#4B5563; line-height:1.7; margin-bottom:18px; }
+.bl-caso__result{ background:var(--beige); border-left:4px solid var(--green); border-radius:0 6px 6px 0;
+  padding:16px; font-family:var(--font-body); font-weight:600; font-size:15px; color:var(--ink); line-height:1.5; margin-bottom:18px; }
+.bl-caso .bl-cta{ margin-top:auto; }
+.bl-casos__foot{ text-align:center; margin-top:40px; }
+
+/* ===================== S-05 · Newsletter ===================== */
+.bl-news{ background:var(--beige); padding-block:80px; }
+.bl-news__grid{ display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:center; }
+.bl-news__text .eyebrow{ margin-bottom:14px; }
+.bl-news__text h2{ font-family:var(--font-head); font-weight:700; font-size:clamp(26px,2.8vw,32px); line-height:1.2;
+  color:var(--ink); max-width:400px; }
+.bl-news__text > p{ color:#4B5563; font-size:15px; line-height:1.7; margin:16px 0 24px; max-width:48ch; }
+.bl-benefits{ display:flex; flex-direction:column; gap:11px; }
+.bl-benefits li{ display:flex; align-items:flex-start; gap:10px; font-size:15px; color:#374151; }
+.bl-benefits svg{ color:var(--green); flex-shrink:0; margin-top:3px; }
+.bl-form{ background:#fff; border-radius:12px; padding:36px; box-shadow:0 4px 16px rgba(0,0,0,.08); }
+.bl-form .field{ margin-bottom:16px; }
+.bl-success{ background:var(--green-light); color:var(--green); border-radius:6px; padding:18px 20px; font-weight:600;
+  font-size:15px; display:flex; align-items:center; gap:10px; }
+.bl-success svg{ flex-shrink:0; }
+.bl-privacy{ font-size:12px; color:#9CA3AF; text-align:center; margin-top:14px; line-height:1.5; }
+
+/* checkbox */
+.bl-check, .ct-check{ display:flex; align-items:flex-start; gap:10px; font-size:13px; color:#374151; line-height:1.5; cursor:pointer; margin:6px 0 18px; }
+.bl-check input, .ct-check input{ appearance:none; -webkit-appearance:none; width:18px; height:18px; flex-shrink:0; margin-top:1px;
+  border:1.5px solid #D1D5DB; border-radius:4px; background:#fff; position:relative; cursor:pointer; transition:all .15s; }
+.bl-check input:checked, .ct-check input:checked{ background:var(--green); border-color:var(--green); }
+.bl-check input:checked::after, .ct-check input:checked::after{ content:""; position:absolute; left:5px; top:1.5px;
+  width:5px; height:10px; border:solid #fff; border-width:0 2px 2px 0; transform:rotate(45deg); }
+.bl-check a, .ct-check a{ color:var(--green); text-decoration:underline; }
+
+/* ===================== S-06 · Lead Magnets ===================== */
+.bl-lead{ background:#fff; padding-block:80px; }
+.bl-lead__head{ text-align:center; max-width:560px; margin:0 auto 48px; display:flex; flex-direction:column; align-items:center; }
+.bl-lead__grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+.bl-magnet{ background:#F9FAFB; border:1px solid var(--line); border-radius:8px; padding:32px; text-align:center;
+  display:flex; flex-direction:column; align-items:center; transition:box-shadow .2s ease, border-color .2s ease, transform .2s ease; }
+.bl-magnet:hover{ box-shadow:0 8px 24px rgba(45,106,47,.10); border-color:var(--green); transform:translateY(-3px); }
+.bl-magnet__icon{ width:56px; height:56px; color:var(--cat, var(--green)); margin-bottom:16px; }
+.bl-magnet__icon svg{ width:56px; height:56px; }
+.bl-magnet .bl-badge{ margin-bottom:14px; }
+.bl-magnet h3{ font-family:var(--font-head); font-weight:700; font-size:18px; color:var(--ink); margin-bottom:10px; line-height:1.3; }
+.bl-magnet__desc{ font-size:14px; color:var(--muted); line-height:1.7; }
+.bl-magnet__pages{ font-size:12px; color:#9CA3AF; margin:16px 0 20px; }
+.bl-magnet .btn{ width:100%; }
+
+/* ===================== Modal (reuse styles.css .modal-*) ===================== */
+.bl-modal-icon{ width:48px; height:48px; border-radius:12px; background:var(--green-light); color:var(--green);
+  display:flex; align-items:center; justify-content:center; margin-bottom:14px; }
+.bl-modal-icon svg{ width:26px; height:26px; }
+
+/* ===================== Responsive ===================== */
+@media (max-width:980px){
+  .bl-feat__card{ grid-template-columns:1fr; }
+  .bl-feat__media{ min-height:0; aspect-ratio:16/9; }
+  .bl-feat__body{ padding:32px; }
+  .bl-grid{ grid-template-columns:repeat(2,1fr); }
+  .bl-lead__grid{ grid-template-columns:repeat(2,1fr); }
+  .bl-news__grid{ grid-template-columns:1fr; gap:36px; }
+}
+@media (max-width:760px){
+  .bl-feat, .bl-grid-sec, .bl-casos, .bl-news, .bl-lead{ padding-block:56px; }
+  .bl-grid{ grid-template-columns:1fr; }
+  .bl-casos__grid{ grid-template-columns:1fr; }
+  .bl-lead__grid{ grid-template-columns:1fr; }
+  .bl-tabs{ flex-wrap:nowrap; overflow-x:auto; justify-content:flex-start; padding-bottom:8px;
+    margin-inline:calc(-1 * var(--gutter)); padding-inline:var(--gutter); -webkit-overflow-scrolling:touch; }
+  .bl-tab{ flex-shrink:0; }
+}
