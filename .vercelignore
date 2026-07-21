@@ -1,0 +1,10 @@
+.git
+.env*
+.thumbnail
+.vercel
+DEPLOYMENT.md
+AgroBrokers - Inicio (offline).html
+AgroBrokers Homepage.html
+AgroBrokers Offline/
+screenshots/
+uploads/

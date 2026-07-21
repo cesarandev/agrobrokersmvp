@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_euez5hE1lMvwxSqDqQtcqmGNwSfV",
+  "orgId": "team_OpqMhR9zEVpeXUJWJTT6ALDm",
+  "projectName": "agrobrokersmpv",
+  "settings": {
+    "createdAt": 1780622199543,
+    "framework": null,
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}
