@@ -1,9 +1,8 @@
-.vercel
+.git
 .env*
-.DS_Store
-node_modules/
-dist/
 .thumbnail
+.vercel
+DEPLOYMENT.md
 AgroBrokers - Inicio (offline).html
 AgroBrokers Homepage.html
 AgroBrokers Offline/
